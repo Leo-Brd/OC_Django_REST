@@ -1,1 +1,1 @@
-# 7192416_APIs_DRF
+Le contenu du cours d'OpenClassroom's sur la librairie Django REST Framework
