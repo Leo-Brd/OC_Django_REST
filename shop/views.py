@@ -24,6 +24,12 @@ class AdminCategoryViewset(MultipleSerializerMixin, ModelViewSet):
     queryset = Category.objects.all()
 
 
+class AdminArticleViewset(MultipleSerializerMixin, ModelViewSet):
+
+    serializer_class = ArticleSerializer
+    queryset = Article.objects.all()
+
+
 class CategoryViewset(MultipleSerializerMixin, ReadOnlyModelViewSet):
 
     serializer_class = CategoryListSerializer
